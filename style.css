@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(93.1deg, rgb(238, 254, 183) 19.1%, rgb(169, 254, 222) 53.9%, rgb(90, 222, 255) 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 80%;
+    width: 70%;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.63);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.2px);
+    -webkit-backdrop-filter: blur(8.2px);
+    border: 1px solid rgba(255, 255, 255, 0.64);
+    border-radius: 30px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    overflow: hidden;
+}
+
+#division1 {
+    height: 100%;
+    width: 70px;
+    background-color: white;
+    overflow: hidden;
+}
+
+#division1 img {
+    height: 3.3em;
+    width: 4em;
+    margin-left: 0.1em;
+    margin-top: 0.8em;
+}
+
+#division2 {
+    height: 100%;
+    width: 900px;
+    /* background-color: greenyellow; */
+    /* border-radius: 30px; */
+    margin-left: 10px;
+    /* display: flex; */
+
+}
+
+#row1 {
+    height: 65px;
+    width: 100%;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+#row1 h1 {
+    font-size: 1.8em;
+    font-family: sans-serif;
+    color: black;
+    /* margin-left: 0.1em; */
+}
+
+#inputs input {
+    height: 3.2em;
+    width: 23rem;
+    padding: 15px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    margin-right: 1em;
+}
+
+#inputs button {
+    height: 3.1em;
+    width: 4em;
+    background-color: yellow;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#row2 {
+    height: 65px;
+    width: 100%;
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#component1 {
+    height: 100%;
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#component2 {
+    height: 100%;
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#component3 {
+    height: 100%;
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#row3 {
+    height: 70%;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#row3 h1 {
+    font-size: 1.4em;
+    font-family: sans-serif;
+    color: black;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+#slot1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+#segments1,
+#segments2,
+#segments3 {
+    height: 150px;
+    width: 230px;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+#slot2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+
+#segments4,
+#segments5,
+#segments6 {
+    height: 150px;
+    width: 230px;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+#division3 {
+    height: 100%;
+    width: 350px;
+    /* background-color: yellow; */
+    /* border-radius: 30px; */
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+#fragment1 {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: cadetblue; */
+}
+
+#fragment1 button {
+    height: 3em;
+    width: 4em;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 1em;
+}
+
+#id {
+    overflow: hidden;
+    height: 70%;
+    width: 70%;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 30px;
+    padding: 7px;
+}
+
+#id img {
+    height: 120%;
+    border-radius: 50%;
+}
+
+#id h1 {
+    font-size: 1.1em;
+    font-family: sans-serif;
+}
+
+#fragment2 {
+    height: 30%;
+    width: 100%;
+    /* background-color: indigo; */
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#part1 {
+    height: 34%;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    border: 5px green solid;
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#part1 h2 {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+#part1 img {
+    height: 75%;
+}
+
+#part2 {
+    margin-top: 5%;
+    height: 56%;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    border: 5px solid aqua;
+    display: block;
+}
+
+#part2 h3 {
+    font-size: 1.1em;
+    font-family: sans-serif;
+    padding-left: 2em;
+    margin-top: 1em;
+}
+
+#hireme {
+    margin-top: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#hireme button {
+    height: 30%;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#hireme img {
+    height: 40px;
+}
+
+
+#fragment3 {
+    height: 49%;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#fragment3 h3{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+}
+
+#box1,#box2{
+    height: 35%;
+    width: 90%;
+    margin-top: 1em;
+    margin-left: 1em;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#box3{
+    display: none;
+}
+
+@media only screen and (max-width:450px) {
+    .container {
+        height: 100vh;
+        width: 100%;
+        border-radius: 0;
+        display: block;
+        overflow-y: auto;
+        background-color: white;
+    }
+
+    #division1 {
+        height: 60px;
+        width: 100%;
+        margin: 0;
+    }
+
+    #division1 img {
+        margin-top: -0em;
+    }
+
+    #division2 {
+        height: 500px;
+        width: 100%;
+        margin: 0;
+    }
+
+    #inputs {
+        display: flex;
+        margin-top: -9em;
+        margin-left: -5em;
+    }
+
+    #inputs input {
+        width: 15em;
+        margin-right: 0.5em;
+        border: 2px solid grey;
+    }
+
+    #inputs button {
+        width: 3rem;
+        margin-right: 0.5rem;
+    }
+
+    #component1,#component2,#component3{
+        background-color: grey;
+    }
+
+
+    #row3 {
+        height: 67.5rem;
+    }
+
+    #slot1 {
+        flex-wrap: wrap;
+    }
+
+    #segments1,
+    #segments2,
+    #segments3 {
+        height: 150px;
+        width: 350px;
+        background-color: grey;
+        border-radius: 10px;
+        margin-top: 1em;
+    }
+
+    #slot2 {
+        flex-wrap: wrap;
+        margin-top: 0.3rem;
+    }
+
+    #segments4,
+    #segments5,
+    #segments6 {
+        height: 150px;
+        width: 350px;
+        background-color: grey;
+        border-radius: 10px;
+        margin-top: 1em;
+    }
+
+    #division3 {
+        height: 500px;
+        width: 100%;
+        margin-top: 45rem;
+        margin-left: 0;
+    }
+
+    #fragment1 {
+        display: none;
+    }
+
+    #fragment2{
+        height: 50%;
+        width: 95%;
+        margin-left: 1em;
+    }
+
+    #part2 h3{
+        font-size: 1.2em;
+        margin-left: 0.2em;
+    }
+
+    #hireme{
+        height: 40%;
+        width: 40%;
+        border-radius: 10px;
+        /* background-color: red; */
+        margin-left: 5.8em;
+    }
+
+    #hireme button{
+        height: 90%;
+        width: 70%;
+        border: none;
+        /* margin-left: 2em; */
+    }
+
+    #box1,#box2{
+        margin-left: 1.5em;
+        height: 50%;
+    }
+}
