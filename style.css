@@ -414,7 +414,8 @@ body {
 
     #part2 h3{
         font-size: 1.2em;
-        margin-left: 1.7em;
+        margin-left: 2.2em;
+        margin-top: 1em;
     }
 
     #hireme{
@@ -437,6 +438,6 @@ body {
     }
     #box1,#box2{
         margin-left: 1.5em;
-        height: 50%;
+        height: 40%;
     }
 }
