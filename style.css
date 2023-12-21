@@ -39,7 +39,7 @@ body {
 }
 
 #division1 img {
-    height: 3.3em;
+    height: 3em;
     width: 3.8em;
     margin-left: 0em;
     margin-top: 0.8em;
@@ -413,7 +413,7 @@ body {
     }
 
     #part2 h3{
-        font-size: 1.0em;
+        font-size: 1.2em;
         margin-left: 1.2em;
     }
 
@@ -433,7 +433,7 @@ body {
     }
 
     #fragment3{
-        height: 70%;
+        height: 100%;
     }
     #box1,#box2{
         margin-left: 1.5em;
