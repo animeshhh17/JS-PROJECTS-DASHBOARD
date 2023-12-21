@@ -413,7 +413,7 @@ body {
     }
 
     #part2 h3{
-        font-size: 1.5em;
+        font-size: 1.0em;
         margin-left: 1.2em;
     }
 
@@ -432,6 +432,9 @@ body {
         /* margin-left: 2em; */
     }
 
+    #fragment3{
+        height: 70%;
+    }
     #box1,#box2{
         margin-left: 1.5em;
         height: 50%;
